@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: gray;
+    font-family: 'Glory', sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background: white;
+}
+
+
+/* ------------------------------> header start <--------------------------------- */
+
+header img {
+    width: 100px;
+    height: 120px;
+    border: 3px solid teal;
+    border-radius: 30px 0px 30px 0px;
+    margin: 10px 30px;
+    float: left;
+}
+
+.heading-name {
+    float: left;
+    padding: 30px;
+}
+
+.heading-name h1 {
+    font-family: fantasy;
+    color: rgba(255, 255, 255, 0.705);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.685);
+}
+
+.heading-name h3 {
+    color: rgba(255, 255, 255, 0.24);
+    text-shadow: 2px 4px 2px rgba(0, 0, 0, 0.788);
+}
+
+.header-contact {
+    float: right;
+    padding: 30px;
+}
+
+.header-contact a {
+    text-decoration: none;
+    color: teal;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.header-contact p {
+    padding: 5px 0 0 0;
+}
+
+.header-contact a i {
+    color: crimson;
+    padding: 10px 10px;
+}
+
+.header-contact a:hover {
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.329);
+}
+
+.clear-both {
+    clear: both;
+}
+
+hr {
+    width: 95%;
+    border: 3px solid rgba(51, 48, 48, 0.445);
+    margin: 10px auto;
+    /* width: 100%; */
+    border-bottom: none;
+    /* border-style: inset; */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.452);
+}
+
+
+/*-------------------------------------> header - End <------------------------------------------------- */
+
+
+/*-------------start Personel-Section-----------*/
+
+#personel-section {}
+
+.content {}
+
+.left-div {
+    padding: 10px 25px;
+    color: teal;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.685);
+    font-weight: bold;
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.right-div {
+    width: 70%;
+    float: left;
+    text-align: justify;
+    padding: 10px 40px 10px;
+    box-sizing: border-box;
+}
+
+.all-hr {
+    width: 95%;
+    border: 1px solid rgba(51, 48, 48, 0.445);
+    margin: 10px auto;
+    /* width: 100%; */
+    border-bottom: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.452);
+}
+
+h4,
+h5 {
+    color: teal;
+}
+
+ul {
+    margin: 10px 0 0 0;
+}
+
+ul li {
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.div-edu-left {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.div-edu-right {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 0 0 10px;
+}
+
+
+/*---------------------------------footer section--------------------------------*/
+
+footer {
+    width: 95%;
+    height: 100px;
+    background-color: teal;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.footer-container {
+    text-align: center;
+    padding: 30px;
+}
+
+.footer-container p {
+    display: inline
+}
+
+.footer-container p a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.footer-container p a:hover {
+    color: white;
+    font-size: 30px;
+    transition: .5s;
+}
